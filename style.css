@@ -51,8 +51,7 @@ nav {
 /* Hero */
 #hero {
     background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/vendors/Images/header.png");
-    background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;  
     background-repeat: no-repeat;
     position: center;
     width: 100%;
@@ -100,6 +99,7 @@ nav {
 .nav-link:hover {
     color: #3A6F83;
 }
+
 /* About */
 .about {
     background: linear-gradient(360deg, #9EBCC5 -14.92%, #9AB9C3 -14.9%, #3A6F83 62.46%, #3A6F83 66.77%);
@@ -113,7 +113,6 @@ nav {
 }
 
 #about .col2 {
-    padding-top: 150px;
     width: 666px;
     height: 190px;
     left: 532px;
@@ -144,19 +143,75 @@ nav {
     transition: 0.3s;
 }
 
+.about img {
+    width: 100%;
+    height: auto;
+}
+
 /* Quotes */
 .quotes {
     background: linear-gradient(rgba(140, 174, 185, 1), rgba(140, 174, 185, 0));
 }
 
 .quotes .col1 {
-    padding-top: 150px;
-    width: 643px;
-    height: 216px;
+    padding-top: 310px;
     font-style: italic;
 }
 
+.quotes h1 {
+    font-weight: bold;
+}
+
 .quotes .col2 {
-    padding-top: 30px;
+    padding-top: 20px;
     font-style: italic;
 }
+
+.quotes h5 {
+    font-weight: bold;
+}
+
+/* Artikel */
+.artikel h1 {
+    padding-top: 310px;
+    font-weight: bold;
+}
+
+
+/* Media */
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .quotes {
+        padding-top: 100px;
+    }
+    #about p {
+        font-size: 17px;
+    }
+    .quotes h1 {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    .quotes h5 {
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+    }
+    .quotes .r2 {
+        margin-top: -25px;
+    }
+    .artikel h1 {
+        text-align: center;
+        font-size: 23px;
+        font-weight: bold;
+    }
+  }
