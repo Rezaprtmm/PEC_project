@@ -254,17 +254,40 @@ nav {
 }
 
 .values p {
-    font-size: 40px;
+    font-size: 50px;
 }
 
-.program {
+.title h1 {
     padding-top: 50px;
-}
-
-.program .title h1 {
     font-weight: bold;
     line-height: 90px;
     text-align: center;
+}
+
+.footer2 .col1 {
+    width: 666px;
+    height: 190px;
+    left: 532px;
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+.footer2 .col2 {
+    width: 495px;
+    height: 511px;
+    left: 183px;
+    top: 712px;
+}
+
+.footer2 {
+    padding-top: 50px;
+    background: rgba(255, 187, 92, 1);
 }
 
 /* Activities */
@@ -405,6 +428,7 @@ nav {
         width: 180px !important;
     }
   }
+
 
   /* Footer */
   .footer {
