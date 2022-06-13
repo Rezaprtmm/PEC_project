@@ -156,6 +156,10 @@ nav {
     color: #000;
 }
 
+.about p {
+    text-align: justify;
+}
+
 #about .btn {
     background: #FFBB5C;
     color: #fff;
@@ -230,12 +234,12 @@ nav {
 }
 
 .values {
-    background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/about_us/values.jpeg");
+    background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/15.png");
     background-size: cover;  
     background-repeat: no-repeat;
     position: center;   
     max-width: 100%;
-    height: 60vh;
+    height: 65vh;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -262,6 +266,29 @@ nav {
     font-weight: bold;
     line-height: 90px;
     text-align: center;
+}
+
+.program img {
+    width: 100%;
+    height: 30vh;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+
+.program .card {
+    overflow: hidden;
+}
+
+.program .card img {
+transform: scale(1); 
+transition: 0.3s ease-in-out;
+}
+
+.program .card img:hover {
+transform: scale(1.1);
 }
 
 .footer2 {
@@ -307,9 +334,14 @@ nav {
     width: 120px;
 }
 
+/* Business */
+.business {
+    margin-top: 200px;
+}
+
 /* Activities */
 .activities {
-    padding-top: 200px;
+    margin-top: 40px;
 }
 
 .section-title h1 {
@@ -329,6 +361,24 @@ nav {
     font-weight: bold;
     bottom: 0;
     left: 0;
+  }
+
+  .activities img {
+    width: 100%;
+    height: 30vh;
+}
+
+    .activities .card {
+        overflow: hidden;
+    }
+
+  .activities .card img {
+    transform: scale(1); 
+    transition: 0.3s ease-in-out;
+  }
+
+  .activities .card img:hover {
+    transform: scale(1.1);
   }
 
 .swiper {
@@ -364,7 +414,7 @@ nav {
   }
 
 
-/* Media */
+/* Media/Mobile */
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
@@ -435,6 +485,18 @@ nav {
         list-style: none;
         text-align: justify;
         font-size: 20px;
+    }
+    .values {
+        background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/18.png");
+        background-size: cover;  
+        background-repeat: no-repeat;
+        position: center;   
+        max-width: 100%;
+        height: 65vh;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
     }
     .values h1 {
         font-weight: bold;
@@ -546,6 +608,7 @@ nav {
   /* Footer */
   .footer {
     background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/1.png");
+    margin-top: 40px;
     background-size: cover;  
     background-repeat: no-repeat;
     position: center;   
