@@ -8,7 +8,8 @@ gsap.from('.button-hero', { duration: 3, x: -100, opacity: 0, delay: 2, ease: 'b
   gsap.to('.waiting-join', { duration: 3, delay: 0.5, text: 'What are u waiting for?<br>Let \'s join us'});
 
 });
-
+gsap.to('.what', { duration: 2, delay: 0.5, text: 'What is PEC'})
+gsap.to('.definition-pec', { duration: 8, delay: 1, text: 'PEC adalah organisasi wirausaha yang dibentuk pada tahun 2021 dengan tujuan memberikan wadah bagi mahasiswa Universitas Paramadina untuk berwirausaha dan menciptakan lingkungan yang suportif serta mengasah mindset entrepreneurship.'})
 
 
 const activitiesImage = document.querySelectorAll('.activities-card');
