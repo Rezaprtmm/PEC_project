@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 * {
@@ -197,6 +198,8 @@ nav {
     margin-right: auto;
 }
 
+/* Definition */
+
 .definition h1 {
     font-weight: bold;
     line-height: 90px;
@@ -214,6 +217,73 @@ nav {
     font-size: 25px;
 }
 
+/* Business */
+.business {
+    margin-top: 200px;
+}
+
+.business .card {
+    width: 100%;
+    height: 36vh;
+}
+
+.business .card img {
+    width: 100%;
+    height: 36vh;
+    object-fit: contain;
+}
+
+.business .card-title {
+    font-weight: bold;
+}
+
+.business .card-text {
+    padding-top: 5px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+
+.business a {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+/* About us Vision */
 .vision {
     padding-top: 50px;
 }
@@ -231,112 +301,6 @@ nav {
     list-style: none;
     font-size: 25px;
     text-align: justify;
-}
-
-.values {
-    background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/15.png");
-    background-size: cover;  
-    background-repeat: no-repeat;
-    position: center;   
-    max-width: 100%;
-    height: 65vh;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #fff;
-}
-
-.values h1 {
-    font-weight: bold;
-    line-height: 90px;
-    margin-bottom: 10px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;
-}
-
-.values p {
-    font-size: 50px;
-}
-
-.title h1 {
-    padding-top: 50px;
-    font-weight: bold;
-    line-height: 90px;
-    text-align: center;
-}
-
-.program img {
-    width: 100%;
-    height: 30vh;
-}
-
-.card-text {
-    font-weight: bold;
-}
-
-
-.program .card {
-    overflow: hidden;
-}
-
-.program .card img {
-transform: scale(1); 
-transition: 0.3s ease-in-out;
-}
-
-.program .card img:hover {
-transform: scale(1.1);
-}
-
-.footer2 {
-    margin-top: 50px;
-    background: rgba(255, 187, 92, 1);
-    max-width: 100%;
-    height: 65vh;
-}
-
-
-.footer2 .col1 {
-    font-weight: 700;
-    line-height: 38px;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000;
-}
-
-.footer2 img {
-    padding-top: 50px;
-    width: 580px;
-}
-
-.footer2 h1 {
-    font-weight: bold;
-    line-height: 90px;
-    text-align: center;
-}
-
-.footer2 p {
-    font-size: 25px;
-}
-
-.footer2 .btn {
-    background: #3A6F83;
-    color: #fff;
-    transition: 0.3s;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 30px;
-    width: 120px;
-}
-
-/* Business */
-.business {
-    margin-top: 200px;
 }
 
 /* Activities */
@@ -381,37 +345,112 @@ transform: scale(1.1);
     transform: scale(1.1);
   }
 
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+/* About us Values */
+.values {
+    background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/15.png");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    position: center;   
+    max-width: 100%;
+    height: 65vh;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
+.values h1 {
+    font-weight: bold;
+    line-height: 90px;
+    margin-bottom: 10px;
+    position: relative;
     align-items: center;
-  }
-
-  .swiper-slide img {
+    justify-content: center;
+    text-align: center;
     display: block;
+}
+
+.values p {
+    font-size: 50px;
+}
+
+.title h1 {
+    padding-top: 50px;
+    font-weight: bold;
+    line-height: 90px;
+    text-align: center;
+}
+
+
+/* About us Program */
+.program img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+    height: 30vh;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+
+.program .card {
+    overflow: hidden;
+}
+
+.program .card img {
+transform: scale(1); 
+transition: 0.3s ease-in-out;
+}
+
+.program .card img:hover {
+transform: scale(1.1);
+}
+
+
+/* About us Footer */
+.footer2 {
+    margin-top: 50px;
+    background: rgba(255, 187, 92, 1);
+    max-width: 100%;
+    height: 65vh;
+}
+
+
+.footer2 .col1 {
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+
+.footer2 img {
+    padding-top: 50px;
+    width: 580px;
+}
+
+.footer2 h1 {
+    font-weight: bold;
+    line-height: 90px;
+    text-align: center;
+}
+
+.footer2 p {
+    font-size: 25px;
+}
+
+.footer2 .btn {
+    background: #3A6F83;
+    color: #fff;
+    transition: 0.3s;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    width: 120px;
+}
 
 
 /* Media/Mobile */
@@ -447,9 +486,39 @@ transform: scale(1.1);
         position: center;   
         max-width: 100%;
         height: 60vh;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
+
+    /* Business */
+    .business .card {
+        width: 100%;
+        height: 100%;
+    }
+    .business .card img {
+        width: 100%;
+        height: auto;
+    }
+    .business .card-title {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .business .card-owner {
+        font-size: 15px;
+    }
+    .business .card-text {
+        font-size: 14px !important;
+        padding-top: 5px;
+        text-align: justify;
+        font-weight: normal;
+    }
+    .business a {
+        display: flex;
+        justify-content: start;
+        text-decoration: none;
+    }
+
+    /* Definition */
     .definition {
         background: rgba(58, 111, 131, 1);
         max-width: 100%;
