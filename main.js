@@ -33,6 +33,22 @@ AOS.init({
     duration: 2000    
   });
 
+/*=== Carousel ===*/
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  breakpoints: {
+    // when window width is <= 499px
+    499: {
+        slidesPerView: 2,
+        spaceBetweenSlides: 20
+    }
+    },
 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
     
 })()

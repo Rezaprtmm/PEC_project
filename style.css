@@ -3,6 +3,10 @@ html, body {
     overflow-y: auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -473,6 +477,12 @@ transform: scale(1.1);
     #hero h1 {
       font-size: 35px;
       line-height: 36px;
+    }
+
+    #scrollup {
+        font-size: 18px;
+        width: 32px;
+        height: 32px;
     }
 
        /* About us */
