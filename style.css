@@ -70,7 +70,7 @@ nav {
 
 #hero h1 {
     margin: 0 0 10px;
-    font-size: 90px;
+    font-size: 4vw;
     font-weight: bold;
     line-height: 90px;
     color: #fff;
@@ -237,14 +237,24 @@ nav {
 
 .business .card-title {
     font-weight: bold;
+    font-size: 1vw;
+}
+
+.card-owner {
+    font-size: 0.9vw;
 }
 
 .business .card-text {
     padding-top: 5px;
     text-align: justify;
     font-weight: normal;
+    font-size: 1vw;
 }
 
+.business #list li {
+    text-align: left;
+    font-size: 1vw;
+}
 
 .business a {
     display: flex;
@@ -415,7 +425,7 @@ transform: scale(1.1);
     margin-top: 50px;
     background: rgba(255, 187, 92, 1);
     max-width: 100%;
-    height: 65vh;
+    height: auto;
 }
 
 
@@ -452,59 +462,6 @@ transform: scale(1.1);
     border-width: 2px;
     border-radius: 30px;
     width: 120px;
-}
-
-
-/* Media/Mobile */
-@media (min-width: 1024px) {
-    #hero {
-        background-attachment: fixed;
-    }
-    #hero h1 {
-        font-size: 50px;
-        line-height: 50px;
-    }
-    .quotes h1 {
-        font-size: 35px;
-        font-weight: bold;
-    }
-    .quotes h5 {
-        font-weight: bold;
-    }
-
-    /* About */
-    #about .col2 {
-        margin-top: -200px !important;
-    }
-
-    /* Business */
-    .business .card {
-        width: 100%;
-        height: 60vh;
-    }
-    .business .card img {
-        width: 100%;
-        height: 60vh;
-        object-fit: contain;
-    }
-    .footer2 {
-        background: rgba(255, 187, 92, 1);
-        max-width: 100%;
-        height: 65vh;
-    }
-    .footer2 h1 {
-        padding-top: 100px;
-        font-weight: bold;
-        line-height: 36px;
-        font-size: 50px;
-    }
-    .footer2 p {
-        font-size: 20px;
-    }
-    .footer2 img {
-        padding-top: 39px;
-        width: 450px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -645,7 +602,7 @@ transform: scale(1.1);
     .footer2 {
         background: rgba(255, 187, 92, 1);
         max-width: 100%;
-        height: 65vh;
+        height: auto;
     }
     .footer2 h1 {
         padding-top: 25px;
