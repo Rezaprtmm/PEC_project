@@ -516,6 +516,9 @@ transform: scale(1.1);
         text-align: justify;
         font-weight: normal;
     }
+    .business #list li {
+        font-size: 14px;
+    }
     .business a {
         display: flex;
         justify-content: start;
