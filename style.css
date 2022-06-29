@@ -481,7 +481,7 @@ transform: scale(1.1);
         color: #000;
     }
     #about .col2 {
-        margin-top: -200px;
+        margin-top: -160px;
     }
     .bg {
         background: linear-gradient(0deg, rgba(53, 108, 132, 0.5), rgba(53, 108, 132, 0.5)), url("/assets/Images/about_us/parmadhp.jpg");
