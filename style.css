@@ -138,6 +138,10 @@ nav {
     background: linear-gradient(rgba(140, 174, 185, 1), rgba(140, 174, 185, 0));
 }
 
+.about .row1 {
+    margin-top: -1px;
+}
+
 #about .col1 {
     width: 495px;
     height: 511px;
