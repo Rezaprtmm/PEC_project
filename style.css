@@ -230,7 +230,7 @@ nav {
 
 .business .card {
     width: 100%;
-    height: 39vh;
+    height: auto;
 }
 
 .business .card img {
@@ -241,18 +241,14 @@ nav {
 
 .business .card-title {
     font-weight: bold;
-    font-size: 1vw;
 }
 
-.card-owner {
-    font-size: 0.9vw;
-}
 
 .business .card-text {
     padding-top: 5px;
     text-align: justify;
     font-weight: normal;
-    font-size: 1vw;
+    font-size: 18px;
 }
 
 .business #list li {
