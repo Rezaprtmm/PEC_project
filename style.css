@@ -138,6 +138,11 @@ nav {
     background: linear-gradient(rgba(140, 174, 185, 1), rgba(140, 174, 185, 0));
 }
 
+.about img {
+    width: 100%;
+    height: auto;
+}
+
 .about .row1 {
     margin-top: -1px;
 }
